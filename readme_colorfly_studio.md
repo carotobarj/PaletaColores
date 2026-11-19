@@ -17,6 +17,12 @@ Este repositorio contiene el **Producto Mínimo Viable (MVP)** de una herramient
 ## ✨ Características Principales
 
 - **Generación rápida de paletas:** Crea combinaciones aleatorias de colores con un solo clic o mediante atajos de teclado (ej. tecla `Espacio`).
+<img src="assets/Paletax6.png" alt="Paleta de 6 colores" width="500">
+<img src="assets/Paletax8.png" alt="Paleta de 8 colores" width="500">
+<img src="assets/Paletax9.png" alt="Paleta de 9 colores" width="500">
+<img src="assets/Paletax8HSL.png" alt="Paleta de 8 colores" width="500">
+
+<img src="assets/GuardarPaleta.png" alt="Registro de paletas guardadas" width="500">
 - **Feedback visual inmediato:** Al hacer clic en un código de color (HEX), este se copia automáticamente al portapapeles mostrando una notificación visual clara (`¡Copiado!`).
 - **Diseño Responsivo (Mobile-First):** Interfaz adaptable a dispositivos móviles, tablets y pantallas de escritorio.
 - **Enfoque en Accesibilidad (A11y):**
@@ -35,6 +41,8 @@ Este repositorio contiene el **Producto Mínimo Viable (MVP)** de una herramient
 [ Aquí puedes insertar una imagen: ![Vista previa de Colorfly Studio](./assets/preview.png) ]
 ```
 
+🔗 **Demo en video:** 
+<img src="assets/appDemo.mov" alt="Demo paleta" width="500">
 🔗 **Demo en vivo:** [Ver aplicación desplegada](https://tu-usuario.github.io/colorfly-studio-mvp/)
 
 ---
