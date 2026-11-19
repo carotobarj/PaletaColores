@@ -42,8 +42,9 @@ Este repositorio contiene el **Producto Mínimo Viable (MVP)** de una herramient
 ```
 
 🔗 **Demo en video:** 
-(https://youtu.be/P0KL2XA8BRE)
-🔗 **Demo en vivo:** [Ver aplicación desplegada](https://tu-usuario.github.io/colorfly-studio-mvp/)
+<a href="https://youtu.be/P0KL2XA8BRE" target="_blank" rel="noopener noreferrer">Video demo en youtube</a>
+
+🔗 **Demo en vivo:** <a href="carotobarj.github.io/PaletaColores" target="_blank" rel="noopener noreferrer">App Desplegada</a>
 
 ---
 
