@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colorfly Studio | Generador de Paletas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <div>
+        <h1 class="brand-title">Colorfly Studio</h1>
+        <p class="brand-subtitle">Generador rápido de paletas para propuestas visuales</p>
+      </div>
+      <p class="shortcut-hint">Atajo: presiona <kbd>Espacio</kbd> para generar</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Panel de controles -->
+    <section class="controls-panel" aria-label="Configuración de la paleta">
+      <div class="control-group">
+        <label for="palette-size">Cantidad de colores</label>
+        <select id="palette-size" name="palette-size">
+          <option value="6" selected>6 colores</option>
+          <option value="8">8 colores</option>
+          <option value="9">9 colores</option>
+        </select>
+      </div>
+
+      <div class="control-group">
+        <label for="color-format">Formato visible</label>
+        <select id="color-format" name="color-format">
+          <option value="hex" selected>HEX</option>
+          <option value="hsl">HSL</option>
+        </select>
+      </div>
+
+      <div class="actions-group">
+        <button type="button" id="generate-btn" class="btn btn-primary">
+          Generar paleta
+        </button>
+        <button type="button" id="save-btn" class="btn btn-secondary">
+          Guardar paleta
+        </button>
+      </div>
+    </section>
+
+    <!-- Contenedor dinámico de la paleta -->
+    <section aria-labelledby="palette-heading">
+      <h2 id="palette-heading" class="sr-only">Paleta generada</h2>
+      <div id="palette-grid" class="palette-grid" data-size="6"></div>
+    </section>
+
+    <!-- Extra credit: Paletas guardadas en localStorage -->
+    <section class="saved-section" aria-labelledby="saved-heading">
+      <div class="saved-header">
+        <h2 id="saved-heading">Paletas guardadas</h2>
+        <button type="button" id="clear-saved-btn" class="btn btn-ghost">
+          Limpiar historial
+        </button>
+      </div>
+      <div id="saved-palettes-list" class="saved-list"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>MVP desarrollado para Colorfly Studio · HTML5, CSS3 &amp; JavaScript</p>
+    </div>
+  </footer>
+
+  <!-- Microfeedback accesible (Toast) -->
+  <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
