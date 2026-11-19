@@ -42,7 +42,7 @@ Este repositorio contiene el **Producto Mínimo Viable (MVP)** de una herramient
 ```
 
 🔗 **Demo en video:** 
-<img src="assets/appDemo.mov" alt="Demo paleta" width="500">
+(https://youtu.be/P0KL2XA8BRE)
 🔗 **Demo en vivo:** [Ver aplicación desplegada](https://tu-usuario.github.io/colorfly-studio-mvp/)
 
 ---
