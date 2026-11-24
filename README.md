@@ -113,13 +113,8 @@ Durante el desarrollo de este MVP se aplicaron los siguientes estándares:
 
 ## 👤 Autor
 
-**[Tu Nombre Aquí]** — Desarrollador/a Frontend Junior
+**[Carolina Tobar Jaramillo]** 
 
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
-- LinkedIn: [Tu Perfil de LinkedIn](https://linkedin.com/in/tu-perfil)
+- GitHub: [@tu-usuario]([https://github.com/carotobarj])
 
 ---
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
