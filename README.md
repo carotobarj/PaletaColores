@@ -108,6 +108,6 @@ Durante el desarrollo de este MVP se aplicaron los siguientes estándares:
 
 **[Carolina Tobar Jaramillo]** 
 
-- GitHub: [@tu-usuario]([https://github.com/carotobarj])
+- GitHub: [https://github.com/carotobarj]
 
 ---
