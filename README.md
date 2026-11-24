@@ -35,11 +35,6 @@ Este repositorio contiene el **Producto Mínimo Viable (MVP)** de una herramient
 
 ## 🖼️ Vista Previa
 
-> *(Nota: Reemplaza este bloque con una captura de pantalla o GIF de tu aplicación en funcionamiento y el enlace a tu despliegue).*
-
-```text
-[ Aquí puedes insertar una imagen: ![Vista previa de Colorfly Studio](./assets/preview.png) ]
-```
 
 🔗 **Demo en video:** 
 <a href="https://youtu.be/P0KL2XA8BRE" target="_blank" rel="noopener noreferrer">Video demo en youtube</a>
@@ -64,10 +59,8 @@ Este proyecto fue desarrollado utilizando tecnologías web estándar sin depende
 ```text
 colorfly-studio-mvp/
 ├── index.html          # Estructura principal de la aplicación
-├── css/
-│   └── styles.css      # Estilos globales, diseño responsivo y variables
-├── js/
-│   └── app.js          # Lógica de generación de paletas e interactividad
+├── styles.css      # Estilos globales, diseño responsivo y variables
+├── app.js          # Lógica de generación de paletas e interactividad
 ├── assets/             # Imágenes, íconos y capturas para documentación
 └── README.md           # Documentación del proyecto
 ```
